@@ -105,5 +105,5 @@ echo 'export PATH="$HOME/.bun/bin:$PATH"' >> ~/.zshrc
 
 ## Notes
 
-- Converter behavior is tuned against `excalidraw/svg-to-excalidraw` and extended for text and marker arrows.
+- Converter behavior is tuned against [excalidraw/svg-to-excalidraw](https://github.com/excalidraw/svg-to-excalidraw) and extended for text and marker arrows.
 - Clipboard errors are shown in the UI if `pbcopy` is unavailable.
