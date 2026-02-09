@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="80" fill="#abcdef">
+  <defs>
+    <linearGradient id="grad1">
+      <stop offset="0%" stop-color="#ff00ff" />
+      <stop offset="100%" stop-color="#00ffff" />
+    </linearGradient>
+  </defs>
+  <style>
+    .cls-fill { fill: #123123; }
+    .cls-stroke { stroke: #010203; }
+  </style>
+  <rect class="cls-fill" x="0" y="0" width="12" height="12" />
+  <circle class="cls-stroke" cx="30" cy="6" r="5" fill="url(#grad1)" />
+  <ellipse cx="55" cy="6" rx="5" ry="3" />
+</svg>

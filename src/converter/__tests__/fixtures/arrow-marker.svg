@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="80">
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#0D32B2" />
+    </marker>
+  </defs>
+  <path d="M10 40 L120 40" fill="none" stroke="#0D32B2" stroke-width="2" marker-end="url(#arrowhead)" />
+</svg>

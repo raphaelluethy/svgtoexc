@@ -1,10 +1,18 @@
 {
   "name": "svgtoexc",
-  "module": "src/index.tsx",
+  "version": "0.1.0",
+  "module": "src/index.ts",
   "type": "module",
   "private": true,
+  "bin": {
+    "svgtoexc": "bin/svgtoexc"
+  },
   "scripts": {
-    "dev": "bun run --watch src/index.ts"
+    "dev": "bun run --watch src/index.ts",
+    "start": "bun run src/index.ts",
+    "test": "bun test",
+    "install:global": "bun add -g \"svgtoexc@file:$PWD\"",
+    "uninstall:global": "bun remove -g svgtoexc"
   },
   "devDependencies": {
     "@types/bun": "latest"
@@ -13,6 +21,9 @@
     "typescript": "^5"
   },
   "dependencies": {
-    "@opentui/core": "^0.1.77"
+    "@opentui/core": "^0.1.77",
+    "linkedom": "^0.18.12",
+    "points-on-path": "^0.2.1",
+    "transformation-matrix": "^3.1.0"
   }
 }
